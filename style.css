@@ -1,0 +1,100 @@
+html {
+	font-size:100%; }
+body {
+	font-size:62.5%; }
+.navbar-nav {
+	font-size: 1.4em; }
+
+html, body, section, .panel, .panel-body {
+	height:100%; 
+	min-height:100%;  
+	vertical-align: center; 
+	float: none; }
+section {
+	padding-top: 65px;
+	margin-top: -65px;
+	margin-bottom: 30px; }
+#full-width, #portrait, #tagline {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;	}
+
+
+#nav.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:10; }
+.navbar-nav li.active:after {
+	content: " .";
+	display: block;
+	text-indent: -99em;
+	border-bottom: 0.8em solid #fff;
+	border-left: 0.8em solid transparent;
+	border-right: 0.8em solid transparent;
+	border-top: none;
+	height: 0px;
+	margin-left: -.8em;
+	margin-right: auto;
+	margin-top: 3px;
+	position: absolute;
+	left: 50%;
+	width: 1px; }
+.navbar .nav .active > a {
+	background-color: none;
+	background: 0 !important; 
+	color: #FFF !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important; }
+.navbar {
+	background-color: #CCCCCC;
+	border-top: 1px solid #827850;
+	border-bottom: 1px solid #827850;	}
+.navbar-header {
+	padding-left: 40px;	}
+
+
+h1, h2, h3 {
+	text-align: center; }
+h1 {
+	font-size: 4em;
+	line-height: 1.4em;
+	margin-top: 50px;
+	margin-bottom: 50px; }
+h2.panel-title {
+	color: #827850;
+	font-family: 'Gudea', sans-serif;
+	font-size: 3em;	}
+h3 {
+	font-family: 'Gudea', sans-serif;
+	color : #273D54;
+	line-height: 1.25em;
+	font-size: 2.4em; }
+p {
+	font-size: 1.5em;
+	text-align: justify; }
+
+
+#headline {
+	background-color: #C2B377; }
+#headline h1 {
+	color: #FFFFFF;
+	font-family: 'Racing Sans One', cursive;
+	text-shadow: 1px 1px 2px rgba(39, 39, 66, 1); }
+#portrait {
+	text-align: center; }
+
+.panel-body {
+	min-height: 600px;
+}
+
+footer {
+	font-family: 'Gudea', sans-serif;
+	line-height: 1.25em;
+	font-size: 1.5em;
+	height: 100px;
+	color: #999;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color : #273D54;	}
